@@ -1,0 +1,4 @@
+.content > img {
+    opacity: 50%;
+    overflow: hidden;
+}
