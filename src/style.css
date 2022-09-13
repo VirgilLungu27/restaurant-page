@@ -1,4 +1,49 @@
+.content {
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+
 .content > img {
-    opacity: 50%;
+    opacity: 90%;
     overflow: hidden;
+    top: 0%;
+    position: absolute;
+    transition: transform 1s;
+}
+
+.content > .welcome {
+    font-size: 24px;
+    top: 0%;
+    left: 36%;
+    position: absolute;
+    color: slategray;
+    background-color: rgba(250, 235, 215, 0.74);
+}
+
+.content > .restaurant, .content > .chef {
+    left: 38%;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    color: antiquewhite;
+    font-size: 19px;
+    margin: 2px;
+    border: 2px solid antiquewhite;
+    width: 500px;
+    height: 150px;
+    transition: transform 1s;
+    background-color: rgba(102, 51, 153, 0.774);
+    text-align: center;
+}
+
+.content > .restaurant {
+    top: 20%;
+}
+
+.content > .chef {
+    top: 40%;
+}
+
+.restaurant:hover, .chef:hover {
+    transform: scale(1.4);
 }
