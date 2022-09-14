@@ -5,7 +5,6 @@
 }
 
 .content > img {
-    opacity: 90%;
     overflow: hidden;
     top: 0%;
     position: absolute;
@@ -21,7 +20,7 @@
     background-color: rgba(250, 235, 215, 0.74);
 }
 
-.content > .restaurant, .content > .chef {
+.content > .restaurant, .content > .chef, .content > .militari, .content > .hours {
     left: 38%;
     position: absolute;
     font-family: 'Ubuntu', sans-serif;
@@ -37,13 +36,22 @@
 }
 
 .content > .restaurant {
-    top: 20%;
+    top: 10%;
 }
 
 .content > .chef {
-    top: 40%;
+    top: 30%;
 }
 
-.restaurant:hover, .chef:hover {
+.content > .militari {
+    top: 50%;
+}
+
+.content > .hours {
+    top: 70%;
+    font-size: 15px;
+}
+
+.restaurant:hover, .chef:hover, .militari:hover {
     transform: scale(1.4);
 }
