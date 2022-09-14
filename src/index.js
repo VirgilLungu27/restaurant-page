@@ -10,6 +10,8 @@ function component() {
   <img src="./chainesh.jpg" a="chineserestaurant">
   <button id="menu">Menu</button>
   <button id="contact">Contact</button>
+  <button id="history">History</button>
+  <button id="about">About</button>
   </div>
   <div class="welcome"><h1>Welcome to Qingdao.</q1></div>
   <div class="restaurant"><h3>The Qingdao restaurant offers customers great food for affordable prices, with a wide variety of Asian dishes.</h3></div>
