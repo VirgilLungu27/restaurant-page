@@ -20,7 +20,7 @@
     background-color: rgba(250, 235, 215, 0.74);
 }
 
-.content > .restaurant, .content > .chef, .content > .militari, .content > .hours {
+.content > .restaurant, .content > .chef, .content > .militari, .hours {
     left: 38%;
     position: absolute;
     font-family: 'Ubuntu', sans-serif;
@@ -36,22 +36,23 @@
 }
 
 .content > .restaurant {
-    top: 10%;
+    top: 15%;
 }
 
 .content > .chef {
-    top: 30%;
+    top: 35%;
 }
 
 .content > .militari {
-    top: 50%;
+    top: 55%;
 }
 
-.content > .hours {
-    top: 70%;
+.hours {
+    top: 75%;
     font-size: 15px;
+    height: 200px;
 }
 
 .restaurant:hover, .chef:hover, .militari:hover {
-    transform: scale(1.4);
+    transform: scale(1.35);
 }
