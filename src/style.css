@@ -8,7 +8,6 @@
     overflow: hidden;
     top: 0%;
     position: absolute;
-    transition: transform 1s;
 }
 
 .content > .welcome {
@@ -48,9 +47,18 @@
 }
 
 .hours {
-    top: 75%;
-    font-size: 15px;
-    height: 200px;
+    top: 85%;
+    left: 43%;
+    font-size: 16px;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hours > h4 {
+    padding: 5px;
 }
 
 .restaurant:hover, .chef:hover, .militari:hover {
