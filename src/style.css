@@ -1,20 +1,28 @@
 .content {
     transition-property: transform;
     transition-duration: 2s;
+    overflow: hidden;
 }
 
 .content > .hero {
-    position: relative;
-    overflow: hidden;
+    position: absolute;
+    max-height: 1050px;
 }
+
+.content > .hero > img {
+    opacity: 50%;
+}
+
 
 .content > .welcome {
     font-size: 24px;
     top: 0%;
-    left: 36%;
+    left: 35%;
     position: absolute;
     color: slategray;
-    background-color: rgba(250, 235, 215, 0.74);
+    background-color: rgba(255, 210, 147, 0.911);
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
 }
 
 .content > .restaurant, .content > .chef, .content > .militari, .hours {
@@ -64,6 +72,7 @@
     position: absolute;
     left: 10%;
     color: white;
+    background-color: #ff0095d7;
     font-size: 32px;
     padding: 12px 24px;
     border: none;
@@ -80,22 +89,18 @@
 
 #menu {
     top: 30%;
-    background-color: #c00707b6;
 }
 
 #contact {
     top: 60%;
-    background-color: #ffd900b2;
 }
 
 #history {
     left: 80%;
     top: 30%;
-    background-color: #ff0095d7;
 }
 
 #about {
     left: 80%;
     top: 60%;
-    background-color: #006effb4;
 }

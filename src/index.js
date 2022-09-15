@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './style.css';
+import './menu.js';
 
 function component() {
   const element = document.createElement('div');
@@ -7,8 +8,8 @@ function component() {
   // Lodash, currently included via a script, is required for this line to work
   element.innerHTML = `
   <div class="hero">
-  <img src="./chainesh.jpg" a="chineserestaurant">
-  <button id="menu">Menu</button>
+  <img src="./food-pattern.jpg" a="chineserestaurant">
+  <button id="menu" onclick="menu()">Menu</button>
   <button id="contact">Contact</button>
   <button id="history">History</button>
   <button id="about">About</button>
