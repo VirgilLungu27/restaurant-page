@@ -87,7 +87,7 @@ body {
 }
 
 #menu:hover, #contact:hover, #history:hover, #about:hover {
-    transform: scale(1.5)
+    transform: scale(1.3)
 }
 
 #menu {
@@ -106,4 +106,39 @@ body {
 #about {
     left: 80%;
     top: 60%;
+}
+
+.menuhero {
+    opacity: 10%;
+    top: 0%;
+    position: absolute;
+}
+
+.menumenu, .menubeverages {
+    background-color: #ff0095d7;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    left: 38%;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.menumenu {
+    width: 500px;
+    height: 90px;
+    border-radius: 12px;
+    font-size: 26px;
+    top: 2%;
+    padding: 10px 12px;
+}
+
+.menubeverages {
+    top: 15%;
+    font-size: 18px;
+}
+
+.menumenu#hover {
+    transform: scale(1.1)
 }
