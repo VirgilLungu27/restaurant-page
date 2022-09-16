@@ -116,6 +116,7 @@ body {
 
 .menumenu, .menubeverages, .menusides, .menumaincourse {
     background-color: #ff0095d7;
+    opacity: 90%;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
@@ -149,10 +150,10 @@ body {
 }
 
 .menumaincourse {
-    top: 107%;
+    top: 99%;
 }
 
-.menubeverages > div, .menusides > div {
+.menubeverages > div, .menusides > div, .menumaincourse > div {
     display: flex;
     justify-content: space-between;
     align-items: center;

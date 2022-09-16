@@ -26,6 +26,10 @@ function component() {
 document.body.appendChild(component());
 
 const menuButton = document.getElementById('menu')
+const historyButton = document.getElementById('history')
+const contactButton = document.getElementById('contact')
+const aboutButton = document.getElementById('about')
+
 
 menuButton.addEventListener('click', function menuChange() {
   document.body.removeChild(component());
