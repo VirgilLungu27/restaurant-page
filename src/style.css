@@ -144,15 +144,19 @@
     top: 17%;
 }
 
+.menubeverages > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 .menubeverages > h4 > span {
     width: 200px;
-    margin-left: 75px;
-    margin-right: 75px;
-
 }
 
 .menusides {
-    top: 57%;
+    top: 77%;
 }
 
 .menumaincourse {
