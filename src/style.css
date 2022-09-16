@@ -2,7 +2,7 @@ body {
     overflow: hidden;
 }
 
-.content {
+.content, .menupage {
     transition-property: transform;
     transition-duration: 2s;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .content > .hero > img {
-    opacity: 50%;
+    opacity: 30%;
 }
 
 
@@ -114,31 +114,40 @@ body {
     position: absolute;
 }
 
-.menumenu, .menubeverages {
+.menumenu, .menubeverages, .menusides, .menumaincourse {
     background-color: #ff0095d7;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
-    left: 38%;
     cursor: pointer;
     text-align: center;
+    border-radius: 12px;
     transition: transform 0.5s;
 }
 
 .menumenu {
+    left: 38%;
     width: 500px;
     height: 90px;
-    border-radius: 12px;
     font-size: 26px;
     top: 2%;
     padding: 10px 12px;
 }
 
-.menubeverages {
-    top: 15%;
+.menubeverages, .menusides, .menumaincourse {
+    left: 41.5%;
+    width: 400px;
     font-size: 18px;
 }
 
-.menumenu#hover {
-    transform: scale(1.1)
+.menubeverages {
+    top: 17%;
+}
+
+.menusides {
+    top: 27%;
+}
+
+.menumaincourse {
+    top: 37%;
 }
