@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import { menuLoad } from './menu.js';
+import { historyLoad } from './history.js';
 
 const element = document.createElement('div');
 element.className = 'content';
@@ -34,4 +35,9 @@ const aboutButton = document.getElementById('about')
 menuButton.addEventListener('click', function menuChange() {
   document.body.removeChild(component());
   document.body.appendChild(menuLoad());
+})
+
+historyButton.addEventListener('click', function historyChange() {
+  document.body.removeChild(component());
+  document.body.appendChild(historyLoad());
 })

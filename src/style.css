@@ -114,7 +114,7 @@ body {
     position: absolute;
 }
 
-.menumenu, .menubeverages, .menusides, .menumaincourse {
+.menumenu, .menubeverages, .menusides, .menumaincourse, .menumenuhistory, .restauranthistory {
     background-color: #ff0095d7;
     opacity: 90%;
     color: white;
@@ -126,13 +126,28 @@ body {
     transition: transform 0.5s;
 }
 
-.menumenu {
+.menumenu, .menumenuhistory, .restauranthistory {
     left: 38%;
     width: 500px;
-    height: 90px;
-    font-size: 26px;
-    top: 1%;
+    font-size: 20px;
     padding: 10px 12px;
+}
+
+.menumenu {
+    font-size: 26px;
+    height: 90px;
+    top: 1%;
+}
+
+.menumenuhistory {
+    font-size: 20px;
+    height: 360px;
+    top: 10%;
+}
+
+.restauranthistory {
+    top: 55%;
+    height: 220px;
 }
 
 .menubeverages, .menusides, .menumaincourse {
