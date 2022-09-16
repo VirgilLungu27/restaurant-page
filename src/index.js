@@ -2,6 +2,7 @@ import _ from 'lodash';
 import './style.css';
 import { menuLoad } from './menu.js';
 import { historyLoad } from './history.js';
+import { contactLoad } from './contact.js';
 
 const element = document.createElement('div');
 element.className = 'content';
@@ -40,4 +41,9 @@ menuButton.addEventListener('click', function menuChange() {
 historyButton.addEventListener('click', function historyChange() {
   document.body.removeChild(component());
   document.body.appendChild(historyLoad());
+})
+
+contactButton.addEventListener('click', function contactChange() {
+  document.body.removeChild(component());
+  document.body.appendChild(contactLoad());
 })

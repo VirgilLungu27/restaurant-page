@@ -114,7 +114,7 @@ body {
     position: absolute;
 }
 
-.menumenu, .menubeverages, .menusides, .menumaincourse, .menumenuhistory, .restauranthistory {
+.menumenu, .menubeverages, .menusides, .menumaincourse, .menumenuhistory, .restauranthistory, .contactinfo {
     background-color: #ff0095d7;
     opacity: 90%;
     color: white;
@@ -177,3 +177,9 @@ body {
     max-height: 36px;
 }
 
+.contactinfo {
+    top: 30%;
+    left: 39%;
+    font-size: 26px;
+    background-color: #ff00950a;
+}
