@@ -1,4 +1,4 @@
-body {
+.content {
     overflow: hidden;
 }
 
@@ -144,10 +144,17 @@ body {
     top: 17%;
 }
 
+.menubeverages > h4 > span {
+    width: 200px;
+    margin-left: 75px;
+    margin-right: 75px;
+
+}
+
 .menusides {
-    top: 27%;
+    top: 57%;
 }
 
 .menumaincourse {
-    top: 37%;
+    top: 107%;
 }
