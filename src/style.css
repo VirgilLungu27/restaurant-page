@@ -130,7 +130,7 @@
     width: 500px;
     height: 90px;
     font-size: 26px;
-    top: 2%;
+    top: 1%;
     padding: 10px 12px;
 }
 
@@ -141,14 +141,16 @@
 }
 
 .menubeverages {
-    top: 17%;
+    top: 15%;
 }
 
 .menubeverages > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 40px;
 }
 
 .menubeverages > h4 > span {
