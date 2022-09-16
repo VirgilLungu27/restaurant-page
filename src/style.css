@@ -1,7 +1,10 @@
+body {
+    overflow: hidden;
+}
+
 .content {
     transition-property: transform;
     transition-duration: 2s;
-    overflow: hidden;
 }
 
 .content > .hero {
@@ -70,7 +73,7 @@
 
 #menu, #contact, #history, #about {
     position: absolute;
-    left: 10%;
+    left: 6%;
     color: white;
     background-color: #ff0095d7;
     font-size: 32px;
