@@ -114,7 +114,7 @@ body {
     position: absolute;
 }
 
-.menumenu, .menubeverages, .menusides, .menumaincourse, .menumenuhistory, .restauranthistory, .contactinfo {
+.menumenu, .menubeverages, .menusides, .menumaincourse, .menumenuhistory, .restauranthistory, .contactinfo, .aboutinfo {
     background-color: #ff0095d7;
     opacity: 90%;
     color: white;
@@ -182,4 +182,14 @@ body {
     left: 39%;
     font-size: 26px;
     background-color: #ff00950a;
+}
+
+.aboutinfo {
+    top: 39%;
+    left: 39%;
+    font-size: 21px;
+    background-color: #ff0095d7;
+    max-height: 130px;
+    max-width: 500px;
+    padding: 5px;
 }

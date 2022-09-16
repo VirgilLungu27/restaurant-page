@@ -3,6 +3,7 @@ import './style.css';
 import { menuLoad } from './menu.js';
 import { historyLoad } from './history.js';
 import { contactLoad } from './contact.js';
+import { aboutLoad } from './about.js'
 
 const element = document.createElement('div');
 element.className = 'content';
@@ -46,4 +47,9 @@ historyButton.addEventListener('click', function historyChange() {
 contactButton.addEventListener('click', function contactChange() {
   document.body.removeChild(component());
   document.body.appendChild(contactLoad());
+})
+
+aboutButton.addEventListener('click', function aboutChange() {
+  document.body.removeChild(component());
+  document.body.appendChild(aboutLoad());
 })
