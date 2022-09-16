@@ -1,5 +1,5 @@
-.content {
-    overflow: hidden;
+body {
+    overflow-x: hidden;
 }
 
 .content, .menupage {
@@ -32,14 +32,14 @@
     left: 38%;
     position: absolute;
     font-family: 'Ubuntu', sans-serif;
-    color: antiquewhite;
+    color: white;
     font-size: 19px;
     margin: 2px;
     border: 2px solid antiquewhite;
     width: 500px;
     height: 150px;
     transition: transform 1s;
-    background-color: rgba(102, 51, 153, 0.774);
+    background-color: #ff0095d7;
     text-align: center;
 }
 
@@ -144,23 +144,20 @@
     top: 15%;
 }
 
-.menubeverages > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    max-height: 40px;
-}
-
-.menubeverages > h4 > span {
-    width: 200px;
-}
-
 .menusides {
-    top: 77%;
+    top: 69%;
 }
 
 .menumaincourse {
     top: 107%;
 }
+
+.menubeverages > div, .menusides > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 36px;
+}
+
